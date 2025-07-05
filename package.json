@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.23.2",
-    "@prisma/client": "^6.11.0",
+    "@prisma/client": "^6.11.1",
     "@prisma/extension-accelerate": "^2.0.1",
     "@radix-ui/react-label": "^2.1.7",
     "@radix-ui/react-slot": "^1.2.3",
