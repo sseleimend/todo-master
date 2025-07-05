@@ -158,6 +158,7 @@ function SignUp() {
             </form>
           )}
         </CardContent>
+        <div id="clerk-captcha" />
         <CardFooter>
           <p className="text-sm text-muted-foreground">
             Already have an account?{" "}
