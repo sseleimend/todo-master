@@ -1,3 +1,5 @@
+"use client";
+
 import { useSignUp } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -81,7 +83,7 @@ function SignUp() {
   }
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-background">
+    <div className="flex items-center justify-center min-h-screen bg-background max-w-xl m-auto">
       <Card className="w-full max-w-d">
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">
@@ -163,7 +165,7 @@ function SignUp() {
               href="/sign-in"
               className="font-medium text-primary hover:underline"
             >
-              SignIn
+              Sign In
             </Link>
           </p>
         </CardFooter>
