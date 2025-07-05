@@ -23,7 +23,7 @@ export default clerkMiddleware(async (auth, req: NextRequest) => {
     }
 
     const client = await clerkClient();
-    const user = await client.users.getUser(userId);
+    const user = await client.users.getUser(userId as string);
     const role = user.publicMetadata.role as string | undefined;
 
     if (role === "admin" && req.nextUrl.pathname === "/dashboard") {
